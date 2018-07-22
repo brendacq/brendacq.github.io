@@ -15,7 +15,8 @@ p {
 
 .navbar{
   margin-bottom: 0;
-  background-color: #3f3f42;
+  /*background-color: #3f3f42;*/
+  background-color: #000000;
   border: 0;
   font-size: 15px !important;
   letter-spacing: 3px;
