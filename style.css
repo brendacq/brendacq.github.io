@@ -33,6 +33,10 @@ p {
   color: #fff !important;
 }
 
+.nav li a:hover{
+  background-color:#000000;
+}
+
 /* FUNCIONA APENAS EM CASO DE SCROLLING
 .navbar-nav li.active a {
   color: #fff !important;
