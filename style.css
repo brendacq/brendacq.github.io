@@ -66,11 +66,27 @@ p {
   /*margin-left: 2.7%;*/
 }
 
-a:link{
-  color: rgb(21, 126, 168);
+.lazer {  
+  background-color: #111010;
+  border: 0;
+  opacity: 0.9;
+  width: 100%;  
+  padding: 2%;
+  margin-top: 10%;
+  text-align: center;
 }
 
-a:hover{
+a:link{
+  color: rgb(21, 126, 168);
+  text-decoration: none;
+}
+
+a:hover {
   color: rgb(18, 173, 235);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb (18, 173, 235);
   text-decoration: none;
 }
