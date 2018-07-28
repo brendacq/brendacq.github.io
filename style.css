@@ -1,5 +1,5 @@
 body {
-  background-color: #000000
+  background-color: #000000;
 }
 
 h2 {
@@ -35,6 +35,10 @@ p {
 
 .nav li a:hover{
   background-color:#000000;
+}
+
+.nav li a:visited{
+  background-color: #000000;
 }
 
 /* FUNCIONA APENAS EM CASO DE SCROLLING
