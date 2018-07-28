@@ -84,6 +84,20 @@ p {
   text-align: center;
 }
 
+.contato{
+  background-color:#111010;
+  border:0;
+  opacity:0.9;
+  width:100%;
+  padding:2%;
+  margin-top:10%;
+  margin-bottom:10%;
+}
+
+label {
+  color: #fff;
+}
+
 a:link{
   color: rgb(21, 126, 168);
   text-decoration: none;
