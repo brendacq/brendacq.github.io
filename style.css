@@ -13,43 +13,45 @@ p {
   text-align: justify;
 }
 
-.navbar{
-  margin-bottom: 0;
-  padding-right:1%;
-  /*background-color: #3f3f42;*/
-  background-color: #000000;
-  border: 0;
-  font-size: 15px !important;
-  letter-spacing: 3px;
-  opacity:0.9;
-}
-.nav-tabs li a {
-  color: #777;
-}
-.navbar li a, .navbar .navbar-brand { 
-  color: #d5d5d5 !important;
-}
-.navbar-nav li a:hover {
-  color: #fff !important;
-}
+@media (min-width: 768px) {
+  .navbar{
+    margin-bottom: 0;
+    padding-right:1%;
+    /*background-color: #3f3f42;*/
+    background-color: #000000;
+    border: 0;
+    font-size: 15px !important;
+    letter-spacing: 3px;
+    opacity:0.9;
+  }
+  .nav-tabs li a {
+    color: #777;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+    color: #fff !important;
+  }
 
-.nav li a:hover{
-  background-color:#000000;
-}
+  .nav li a:hover{
+    background-color:#000000;
+  }
 
-.nav li a:visited{
-  background-color: #000000;
-}
+  .nav li a:visited{
+    background-color: #000000;
+  }
 
-/* FUNCIONA APENAS EM CASO DE SCROLLING
-.navbar-nav li.active a {
-  color: #fff !important;
-  background-color:#29292c !important;
-}
-*/
+  /* FUNCIONA APENAS EM CASO DE SCROLLING
+  .navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+  }
+  */
 
-.navbar-default .navbar-toggle {
-  border-color: transparent;
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
 }
 
 .aboutme {  
