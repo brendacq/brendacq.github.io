@@ -1,0 +1,36 @@
+body {
+    background-color: white;
+    font-family: 'cabin';
+}
+
+ul{
+    padding-right: 7%;
+}
+
+li a{
+    font-size: 16px; 
+    color: black;
+}
+
+ul.bg1 a:hover{
+    background-color: white;
+    color: rgb(100, 100, 100);
+}
+
+a.active{
+    border-bottom: 2px solid black;
+}
+
+h3 {
+    font-weight: 900;
+}
+
+.container{
+    margin-top: 4%;
+    margin-left: 15%;
+}
+
+.pic {
+    float: right;
+    padding-top: 2%;
+}
