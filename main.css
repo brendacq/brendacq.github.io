@@ -1,10 +1,12 @@
 body {
     background-color: white;
     font-family: 'cabin';
+    margin:0;
+    padding:0;
 }
 
 ul{
-    padding-right: 7%;
+    padding-right: 11%;
 }
 
 li a{
@@ -14,23 +16,40 @@ li a{
 
 ul.bg1 a:hover{
     background-color: white;
-    color: rgb(100, 100, 100);
+    color: black;
+    font-size: 17px;
 }
 
 a.active{
     border-bottom: 2px solid black;
 }
 
-h3 {
+h3, h4 {
     font-weight: 900;
 }
 
-.container{
-    margin-top: 4%;
-    margin-left: 15%;
+.container{    
+    margin-left: 10%;
 }
 
-.pic {
-    float: right;
-    padding-top: 2%;
+#likes {
+    float:right;
+    padding: 7% 2%;
+    border: 2px solid #d4d4d4;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-sm"] {
+    float: left;
+    padding: 20px;
+    margin-right: 3%;
+  }
