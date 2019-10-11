@@ -1,39 +1,40 @@
 body {
     background-color: white;
     font-family: 'cabin';
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
-ul{
+ul {
     padding-right: 11%;
 }
 
-li a{
-    font-size: 16px; 
+li a {
+    font-size: 16px;
     color: black;
 }
 
-ul.bg1 a:hover{
+ul.bg1 a:hover {
     background-color: white;
     color: black;
     font-size: 17px;
 }
 
-a.active{
+a.active {
     border-bottom: 2px solid black;
 }
 
-h3, h4 {
+h3,
+h4 {
     font-weight: 900;
 }
 
-.container{    
+.container {
     margin-left: 10%;
 }
 
 #likes {
-    float:right;
+    float: right;
     padding: 7% 2%;
     border: 2px solid #d4d4d4;
 }
@@ -42,7 +43,7 @@ h3, h4 {
     box-sizing: border-box;
 }
 
-.row::after{
+.row::after {
     content: "";
     clear: both;
     display: table;
@@ -52,4 +53,31 @@ h3, h4 {
     float: left;
     padding: 20px;
     margin-right: 3%;
-  }
+}
+
+form {
+    font-size: 16px;
+    padding-top: 12px;
+}
+
+.form-group {
+    padding-top: 6px;
+}
+
+.form-control:focus {
+    border-top: 0;
+    border-left: 0;
+    border-color: black;
+    box-shadow: inset 0 1px 1px 0 rgb(0, 0, 0), 0 0 8px rgba(0, 0, 0, 0.75);
+}
+
+#info {
+    margin-top: 100px;
+    float: right;
+    border-left: 2px solid black;
+    height: 380px;
+}
+
+.fntwght {
+    font-size: 16px;
+}
