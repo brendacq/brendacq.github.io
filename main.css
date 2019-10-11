@@ -24,6 +24,22 @@ a.active {
     border-bottom: 2px solid black;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
 h3 {
     font-weight: 900;
     padding-bottom: 10px;
@@ -32,6 +48,10 @@ h3 {
 
 h4 {
     font-weight: 900;
+}
+
+p {
+    text-align: justify;
 }
 
 .container {
@@ -83,8 +103,12 @@ form {
     height: 380px;
 }
 
-.fntwght {
+.fnt-wght {
     font-size: 16px;
+}
+
+.txt-alg-ctr {
+    text-align: center;
 }
 
 .navbar-brand {
