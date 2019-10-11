@@ -94,3 +94,9 @@ form {
 #selfie {
     margin-top: 30px;
 }
+
+button.bg2:hover {
+    background-color: white;
+    border-color: black;
+    box-shadow: 0 0 8px rgba(80, 80, 80, 0.75);
+}
