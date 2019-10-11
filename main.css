@@ -14,6 +14,15 @@ li a {
     color: black;
 }
 
+ul a:link{
+    background-color: white;
+}
+
+ul.bg1 a:visited{
+    background-color: white;
+    color: black;
+}
+
 ul.bg1 a:hover {
     background-color: white;
     color: black;
